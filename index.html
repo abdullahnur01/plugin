@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Plugin Tutorial</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- fontawesome links -->
+    <link rel="stylesheet" href="vendor/fontawesome/all.min.css">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="vendor/curved-text/demo.css" />
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="vendor/logo-distort/perspectiveRules.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="parallax-window p-section" data-parallax="scroll" data-image-src="images/nature-2.jpg">
+        <div class="container">
+            <div id="text1"> Hm, looks like the wonderful arctext plugin. </div>
+        </div>
+    </section>
+    <section class="swiper-section">
+        <div class="blue-light"></div>
+        <div class="pink-light"></div>
+        <div class="container">
+           <h2 class="text-center pb-5">SWIPER JS</h2>
+            <div class="row gx-5 gy-4">
+                <div class="col-12 col-md-6">
+                    <!-- Slider container -->
+                    <div class="swiper swiper1">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <!-- Slider container -->
+                    <div class="swiper swiper2">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <!-- Slider container -->
+                    <div class="swiper swiper3">
+                        <div class="parallax-bg" data-swiper-parallax="-23%"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">Slide 6</div>
+                            <div class="swiper-slide">Slide 7</div>
+                            <div class="swiper-slide">Slide 8</div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- If we need navigation -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="paralaxbg p-section" style="background-image: url('images/bg.jpg');">
+        <h2 class="p-h2"> Effect with Paralaxbg.js</h2>
+    </section>
+        <section class="owl-section">
+        <div class="container">
+            <h2 class="text-center pb-5">OWL CAROUSAL</h2>
+            <div class="row gx-5 gy-4">
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme">
+                        <div> <img src="images/nature-2.jpg" alt=""></div>
+                        <div> <img src="images/nature-3.jpg" alt=""></div>
+                        <div> <img src="images/nature-4.jpg" alt=""></div>
+                        <div> <img src="images/nature-5.jpg" alt=""></div>
+                        <div> <img src="images/nature-7.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="logo-distort" class="p-section">
+        <img alt="background" src="images/background.png" />
+        <div id="particle-target"></div>
+        <img alt="background" src="images/cockpit.png" />
+    </div>
+    <!--
+    <div id="text2"> And this looks like the amazing circletype plugin! </div>
+    <div id="text3"> But, what the heck is that? Well, that's a bezier curve! </div>
+    <div id="text4"> Not impressed yet? Alright, so let's go crazy and align some text on a spiral. But there is a lot more to discover: animations, transformations, customized letters, ...! </div> -->
+    <!-- scripts links -->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="vendor/curved-text/jquery.typorize.min.js"></script>
+    <script src="vendor/curved-text/jquery.curvedtext.min.js"></script>
+    <script src="vendor/curved-text/demo.js"></script>
+    <script src="vendor/parallax.min.js"></script>
+    <script src="vendor/paralaxbg.min.js"></script>
+    <script src="vendor/logo-distort/jquery.logosDistort.min.js"></script>
+    <script src="vendor/logo-distort/jquery.particleground.min.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

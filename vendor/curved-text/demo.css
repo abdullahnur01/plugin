@@ -1,0 +1,52 @@
+/**
+ * Text 1
+ */
+#text1
+{
+    margin:           0em 0.0em;
+    overflow:         hidden;
+    font:             normal normal normal 2.0em/1.5 'Open Sans Light', sans-serif;
+    color:            #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/**
+ * Text 2
+ */
+#text2
+{
+    margin:           3.0em auto;
+    overflow:         hidden;
+    width:            50%;
+    font:             normal normal normal 2.0em/1.5 'Open Sans Light', sans-serif;
+    color:            #ffffff;
+    background-color: #fbab11;
+}
+
+
+/**
+ * Text 3
+ */
+#text3
+{
+    margin:           3.0em auto;
+    overflow:         hidden;
+    font:             normal normal normal 2.0em/1.5 'Open Sans Light', sans-serif;
+    color:            #ffffff;
+    background-color: #d81c82;
+}
+
+
+/**
+ * Text 4
+ */
+#text4
+{
+    margin:           3.0em auto;
+    overflow:         hidden;
+    width:            66%;
+    font:             normal normal normal 2.0em/1.5 'Open Sans Light', sans-serif;
+    color:            #ffffff;
+    background-color: #04eea0;
+}
